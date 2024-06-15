@@ -1,476 +1,561 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>gahee's KBbank</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap" rel="stylesheet">
-  <!--slick 스크립트-->
-   <link rel="stylesheet" type="text/css" href="./script/slick.css"/>
-   <link rel="stylesheet" type="text/css" href="./script/slick-theme.css"/>
-   <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
-   
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!--slick 스크립트-->
+    <link rel="stylesheet" type="text/css" href="./script/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./script/slick-theme.css" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript" src="./script/slick.js"></script> 
+    <script type="text/javascript" src="./script/slick.js"></script>
     <script src="./script/index.js"></script>
-    
-    
-    
-    
-</head>
-<body>
+  </head>
+  <body>
     <div id="wrap">
-       <div class="popup">
-          <div class="notice">
-              <div class="inner">
-                 <ul class="container_list">
-                     <li class="list_item"><a href="#">긴급재난지원금 사칭한 가짜 사이트 주의하세요!</a></li>
-                     <li class="list_item"><a href="#">코로나19관련 금융소비자 유의 사항</a></li>
-                     <li class="list_item"><a href="#">불법대출 모집 문자 대고객주의 안내</a></li>
-                     <li class="list_item"><a href="#">보이스피싱 금융사기에 유의하세요!</a></li>
-                 </ul>
-                  <span>알려드립니다</span>
-              </div>
-          </div>
-           <div class="inner">
-              <i class="fas fa-lock"></i>
-               <span>공인중개사</span>
-               <i class="fas fa-desktop"></i>
-               <span>원격중개사</span>
-               <i class="fas fa-user-alt"></i>
-               <span>로그인</span>
-               <i class="fas fa-id-card-alt"></i>
-               <span>ID등록</span>
-               <input type="text" name="search" placeholder="search">
-               <i class="fa fa-search fa-flip-horizontal"></i>
-            </div>
-           <button>닫기</button>
-       </div>
-        <section id="gallery">
-            <div class="slideBox">
-               <p class="mainTxt"><span>KB</span>가 국민 곁에서 <br>든든한 금융파트너가 되겠습니다. </p>
-               <p class="mainTxt2">국민의 평생 파트너, KB국민은행이 평생 당신과 함께 하겠습니다.</p>
-               <div class="mainBox mainBox1">
-                   <p>Liib <br> X <br> <span>나만의 <br> 생활금융</span> 플랫폼</p>
-                   <p>일상생활 곳곳에서 함께하는 <br> 금융 라이프 스타일</p>
-                   <button class="mainBtn">자세히보기</button>
-               </div>
-               <div class="mainBox mainBox2">
-                   <p>Liib Mate<br> X <br> 나만 몰랐던 포인트 <br><span>알뜰히 챙기는 방법</span></p>
-                   <p>소비패턴 분석에 따른 당신만을 위한 맞춤형 솔루션</p>
-                   <button class="mainBtn">자세히보기</button>
-               </div>
-               <div class="mainBox mainBox3">
-                   <p>mymoney<br> - <br> KB마이머니 <br><span>'자동' 가계부</span></p>
-                   <p>자동으로 가입되는 마이머니<br>가계부로 편리하게 지출관리하세요!</p>
-                   <button class="mainBtn">자세히보기</button>
-               </div>
-                <div class="slideImg"><img src="./img/slide1.jpg" alt=""></div>
-                <div class="slideImg"><img src="./img/slide2.jpg" alt=""></div>
-                <div class="slideImg"><img src="./img/slide3.jpg" alt=""></div>
-                <div class="slideImg"><img src="./img/1slide4.jpg" alt=""></div>
-                <div class="slideImg"><img src="./img/1slide5.jpg" alt=""></div>
-                <ul class="indicator">
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-                <div class="left">
-                    <img src="img/main_prev.jpg" class="prev">
-                </div>
-                <div class="right">
-                    <img src="img/main_next.jpg" class="next">
-                </div>
-            </div>
-        </section>
-        <header id="header">
-            <div class="inner">
-                <h1 class="logo"></h1>
-                <nav class="nav">
-                    <ul>
-                        <li><a href="#">개인</a></li>
-                        <li><a href="#">기업</a></li>
-                        <li><a href="#">금융상품</a></li>
-                        <li><a href="#">자산관리</a></li>
-                        <li><a href="#">외환</a></li>
-                        <li><a href="#">퇴직연금</a></li>
-                        <li><a href="#">부동산</a></li>
-                        <li><a href="#">전체서비스</a></li>
-                        <li><a href="#">Global</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <section id="content">
-            <div class="inner">
-                <div class="contBox">
-                    <div>
-                        <div class="Box">
-                            <img src="./img/con1.JPG" alt="">
-                            <div class="text">
-                                <p>전체조회</p>
-                                <span>바로가기 ></span>
-                            </div>
-                        </div>
-                        <div class="Box">
-                            <img src="./img/con2.JPG" alt="">
-                            <div class="text">
-                                <p>계좌이체</p>
-                                <span>바로가기 ></span>
-                            </div>
-                        </div>
-                        <div class="Box">
-                            <img src="./img/con3.JPG" alt="">
-                            <div class="text">
-                                <p>자동이체</p>
-                                <span>바로가기 ></span>
-                            </div>
-                        </div>
-                        <div class="Box">
-                            <img src="./img/con4.JPG" alt="">
-                            <div class="text">
-                                <p>자산관리</p>
-                                <span>바로가기 ></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="contTop">
-                    <div>
-                        <div class="tab_menu">
-                            <ul>
-                              <li class="active"><a href="#">새소식</a>
-                                <ul>
-                                  <li><a href="#"><span class="red">[ 영업점 출입자 명부 ]</span> 작성 시행 안내</a></li>
-                                  <li><a href="#">KB 국민은행 사칭 문자 유의 안내</a></li>
-                                  <li><a href="#">코로나19 관련 일부 영업점 일시중단 안내</a></li>
-                                  <li><a href="#">오픈뱅킹공동업무 금융정보조회 약관, <span class="green">「오픈뱅킹공동업무」</span>자동계좌이체 약관 개정 안내</a></li>
-                                 
-                                </ul>
-                              </li>
-                              <li><a href="#">이벤트</a>
-                                <ul>
-                                  <li><a href="#"> 상상을 넘어 현실로! 국민 아이디어 공모전</a></li>
-                                   <li><a href="#">Welcome to KB 더드림존 OPEN 이벤트</a></li>
-                                  <li><a href="#">KB 2021 연금꽃길 개인현 IPR 고객 이벤트 </a></li>
-                                  <li><a href="#">해외송금, 국민 EZ로 꽃길 걸어요~ </a></li>
-                                  <li><a href="#">수수료 500원도, 이제 그만 내세요~!</a></li>
-                                </ul>
-                              </li>
-                              
-                            </ul>
-                          </div>
-                          <div class="cont1">
-                              <div>
-                                  <div>
-                                      <img src="./img/main_product_img01.jpg" alt="">
-                                      <div class="cont1Txt">
-                                          <span>예금</span>
-                                          <p>알짜 정보</p>
-                                      </div>
-                                  </div>
-                                  <div>
-                                      <img src="./img/main_product_img02.jpg" alt="">
-                                      <div class="cont1Txt">
-                                          <span>펀드</span>
-                                          <p>펀드 랭킹</p>
-                                      </div>
-                                  </div>
-                                  <div>
-                                      <img src="./img/main_product_img03.jpg" alt="">
-                                      <div class="cont1Txt">
-                                          <span>외환</span>
-                                          <p>내역 조회</p>
-                                      </div>
-                                  </div>
-                                  <div>
-                                      <img src="./img/main_product_img05.jpg" alt="">
-                                      <div class="cont1Txt">
-                                          <span>대출</span>
-                                          <p>한도 조회</p>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="cont2">
-                             <h2>당신과 함께하는<span> KB</span> 금융 라이프</h2>
-                              <div class="cont2gallery">
-                                  <div></div>
-                                  <div></div>
-                                  <div></div>
-                              </div>
-                          </div>
-                    </div>
-                </div>
-                
-                <div class="contBottom">
-                    <div class="bottomBox">
-                        <div class="box1">
-                            <div class="box_1 box11">
-                                <h3>나의 든든한 친구 <br><span>리브메이트</span></h3>
-                                <hr>
-                                <p><span>고객님!</span> 지금 바로 <span>리브메이트</span> 어플을 다운받고 <br><span>스타벅스</span> 카라멜 마끼아또 Tall 2잔을 받아가세요.</p>
-                                <p>본 이벤트는 KB 국민은행 사정에 따라 중단될 수 있습니다.
-                                <br>경품의 공과금은 KB국민은행이 부담하며, 경품가액은 기타소득으로 산정됩니다.<br>앱 가입대상은 만 14세 이상으로 가입고객에게만 적립 됩니다.</p>
-                            </div>
-                            
-
-                            <div class="box_1 box12">
-                                <h3>어려운 자산관리 <br>
-                                <span> [ </span> 케이봇 쌤 <span> ] </span> 에게 맡겨주세요!</h3>
-                                <p><span>01</span> 케이봇 쌤은 분석합니다.</p>
-                                <p>향후 국내 주식시장은 강한 강세장으로 예상됩니다.</p>
-                                <p><span>02</span> 케이봇 쌤은 간편합니다.</p>
-                                <p>매일 스스로 금융시장을 분석하는 인공지능 로봇과<br>
-                                KB금융그룹 전문가의 노하우로 최적의 포트폴리오를 고객님께 제안해 드립니다</p>
-                            </div>
-                            
-                            <div class="box_1 box13">
-                                <h3><span>숨어 있는 통장 찾기</span><br>국민 이벤트</h3>
-                                <hr>
-                                <p>고객님이 잊은 <span>숨어있는 통장</span>도 찾고,<br>
-                                총 <span>2021</span>분께 드리는 포인트 혜택도 잡으세요.</p>
-                                <p>07.21~10.31</p>
-                                <p>본 이벤트는 KB 국민은행 사정에 따라 중단될 수 있습니다.
-                                <br>경품의 공과금은 KB국민은행이 부담하며, 경품가액은 기타소득으로 산정됩니다.<br>앱 가입대상은 만 14세 이상으로 가입고객에게만 적립 됩니다.</p>
-                                <i class="fas fa-money-check-alt"></i>
-                            </div>
-
-                            
-                        </div>
-                        <div class="box2">
-                            <div>
-                                <div class="box_2 box21">
-                                    <span class="caption"></span>
-                                </div>
-                                <div class="box_2 box22">
-                                    <span class="caption"></span>
-                                </div>
-                                <div class="box_2 box23">
-                                   <span class="caption"></span>
-                                    <p>이벤트</p>
-                                    <hr>
-                                    <p>숨은 통장 찾기 국민 이벤트</p>
-                                    <p>07.01~07.31</p>
-                                    <p>- 고객님이 잊은 <span>숨어있는 통장</span>을 찾아드려요.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="box3">
-                            <div>
-                                <div class="box31">
-                                    <i class="fas fa-plus"></i>
-                                    <p class="view">View More</p>
-                                    
-                                </div>
-                                <div class="box32">
-                                    <span>
-                                        <p>KB 새소식</p>
-                                        <p>문의전화</p>
-                                        <p>1588-1111</p>
-                                    </span>
-                                </div>
-                                <div class="box33">
-                                    <span>
-                                        <p>서비스</p>
-                                        <hr>
-                                        <p>Liiv mate 출시</p>
-                                        <p>KB금융그룹통합</p>
-                                        <p>멤버십 <span class="new">new</span></p>
-                                        <p>고객님, 체크해 보셨나요?</p>
-                                    </span>
-                                </div>
-                                <div class="box34">
-                                    <i class="fas fa-plus"></i>
-                                    <p class="view" >View More</p>
-                                </div>
-                                <div class="box35">
-                                    <i class="fas fa-plus"></i>
-                                    <p class="view">View More</p>
-                                </div>
-                                <div class="box36">
-                                    <span>
-                                        <span>금융사고예방</span>
-                                        <p>전자금융</p>
-                                        <p>사기예방 서비스</p>
-                                        <p>WARNING !</p>
-                                        <p>07.11~09.18</p>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="kbApp">
-            <div class="inner">
-                <h2><span>KB</span> 국민은행 APP</h2>
-                <div class="autoplay">
-                    <div>
-                        <img src="./img/03_01_img3.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="./img/03_01_img4.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="./img/03_01_img5.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="./img/03_01_img6.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="./img/03_01_img7.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="./img/03_01_img11.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="./img/03_01_img8.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="./img/03_01_img9.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="./img/03_01_img2.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="./img/03_01_img1.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-         <div class="tabPannel">
-           <h2><span>KB</span> 국민카드</h2>
-            <ul class="tab_title">
-                <li>신용카드</li>
-                <li>체크카드</li>
-                <li  class="on">프리미엄</li>
+      <div class="popup">
+        <div class="notice">
+          <div class="inner">
+            <ul class="container_list">
+              <li class="list_item">
+                <a href="#">긴급재난지원금 사칭한 가짜 사이트 주의하세요!</a>
+              </li>
+              <li class="list_item">
+                <a href="#">코로나19관련 금융소비자 유의 사항</a>
+              </li>
+              <li class="list_item">
+                <a href="#">불법대출 모집 문자 대고객주의 안내</a>
+              </li>
+              <li class="list_item">
+                <a href="#">보이스피싱 금융사기에 유의하세요!</a>
+              </li>
             </ul>
-            <div class="tab_cont">
-                <div>
-                  <img src="./img/s1.png" alt="">
-                  <img src="./img/s2.png" alt="">
-                  <img src="./img/s3.png" alt="">
-                  <img src="./img/s4.png" alt="">
-                </div>
-                <div>
-                  <img src="./img/p1.png" alt="">
-                  <img src="./img/p2.png" alt="">
-                  <img src="./img/p3.png" alt="">
-                  <img src="./img/p4.png" alt="">
-                </div>
-                <div class="on">
-                  <img src="./img/c1.png" alt="">
-                  <img src="./img/c2.png" alt="">
-                  <img src="./img/c3.png" alt="">
-                  <img src="./img/c4.png" alt="">
-                </div>
-           </div>
+            <span>알려드립니다</span>
+          </div>
         </div>
-        <div class="bottomImg"></div>
-        <section id="contact">
-            <div class="inner">
-               <div class="bottomLogo"></div>
-                <form action="#" method="post" class="form">
-                    <h3>CONTACT US!</h3>
-                    <div class="input-inner">
-                        <div class="unit">
-                            <label for="input1">성함</label>
-                            <input type="text" id="input1">
-                            <span class="line"></span>
-
-                        </div>
-                        <div class="unit">
-                            <label for="input2">연락처</label>
-                            <input type="text" id="input2">
-                            <span class="line"></span>
-
-                        </div>
-                        <div class="unit">
-                            <label for="input3">내용을 입력해주세요 !</label>
-                            <input type="text" id="input3">
-                            <span class="line"></span>
-
-                        </div>
-				    </div>
-                <button id="submit">제출하기</button>
-                </form>
+        <div class="inner">
+          <i class="fas fa-lock"></i>
+          <span>공인중개사</span>
+          <i class="fas fa-desktop"></i>
+          <span>원격중개사</span>
+          <i class="fas fa-user-alt"></i>
+          <span>로그인</span>
+          <i class="fas fa-id-card-alt"></i>
+          <span>ID등록</span>
+          <input type="text" name="search" placeholder="search" />
+          <i class="fa fa-search fa-flip-horizontal"></i>
+        </div>
+        <button>닫기</button>
+      </div>
+      <section id="gallery">
+        <div class="slideBox">
+          <p class="mainTxt">
+            <span>KB</span>가 국민 곁에서 <br />든든한 금융파트너가 되겠습니다.
+          </p>
+          <p class="mainTxt2">
+            국민의 평생 파트너, KB국민은행이 평생 당신과 함께 하겠습니다.
+          </p>
+          <div class="mainBox mainBox1">
+            <p>
+              Liib <br />
+              X <br />
+              <span
+                >나만의 <br />
+                생활금융</span
+              >
+              플랫폼
+            </p>
+            <p>
+              일상생활 곳곳에서 함께하는 <br />
+              금융 라이프 스타일
+            </p>
+            <button class="mainBtn">자세히보기</button>
+          </div>
+          <div class="mainBox mainBox2">
+            <p>
+              Liib Mate<br />
+              X <br />
+              나만 몰랐던 포인트 <br /><span>알뜰히 챙기는 방법</span>
+            </p>
+            <p>소비패턴 분석에 따른 당신만을 위한 맞춤형 솔루션</p>
+            <button class="mainBtn">자세히보기</button>
+          </div>
+          <div class="mainBox mainBox3">
+            <p>
+              mymoney<br />
+              - <br />
+              KB마이머니 <br /><span>'자동' 가계부</span>
+            </p>
+            <p>
+              자동으로 가입되는 마이머니<br />가계부로 편리하게 지출관리하세요!
+            </p>
+            <button class="mainBtn">자세히보기</button>
+          </div>
+          <div class="slideImg"><img src="./img/slide1.jpg" alt="" /></div>
+          <div class="slideImg"><img src="./img/slide2.jpg" alt="" /></div>
+          <div class="slideImg"><img src="./img/slide3.jpg" alt="" /></div>
+          <div class="slideImg"><img src="./img/1slide4.jpg" alt="" /></div>
+          <div class="slideImg"><img src="./img/1slide5.jpg" alt="" /></div>
+          <ul class="indicator">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+          <div class="left">
+            <img src="img/main_prev.jpg" class="prev" />
+          </div>
+          <div class="right">
+            <img src="img/main_next.jpg" class="next" />
+          </div>
+        </div>
+      </section>
+      <header id="header">
+        <div class="inner">
+          <h1 class="logo"></h1>
+          <nav class="nav">
+            <ul>
+              <li><a href="#">개인</a></li>
+              <li><a href="#">기업</a></li>
+              <li><a href="#">금융상품</a></li>
+              <li><a href="#">자산관리</a></li>
+              <li><a href="#">외환</a></li>
+              <li><a href="#">퇴직연금</a></li>
+              <li><a href="#">부동산</a></li>
+              <li><a href="#">전체서비스</a></li>
+              <li><a href="#">Global</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section id="content">
+        <div class="inner">
+          <div class="contBox">
+            <div>
+              <div class="Box">
+                <img src="./img/con1.JPG" alt="" />
+                <div class="text">
+                  <p>전체조회</p>
+                  <span>바로가기 ></span>
+                </div>
+              </div>
+              <div class="Box">
+                <img src="./img/con2.JPG" alt="" />
+                <div class="text">
+                  <p>계좌이체</p>
+                  <span>바로가기 ></span>
+                </div>
+              </div>
+              <div class="Box">
+                <img src="./img/con3.JPG" alt="" />
+                <div class="text">
+                  <p>자동이체</p>
+                  <span>바로가기 ></span>
+                </div>
+              </div>
+              <div class="Box">
+                <img src="./img/con4.JPG" alt="" />
+                <div class="text">
+                  <p>자산관리</p>
+                  <span>바로가기 ></span>
+                </div>
+              </div>
             </div>
-        </section>
-        <section id="footerTop">
-                <div class="inner">
-                    <ul class="footerNav">
-                        <li><a href="#">개인정보처리(취금)방침</a></li>
-                        <li><a href="#">전자금융</a></li>
-                        <li><a href="#">KB국민은행 소개</a></li>
-                        <li><a href="#">전자금융 이용안내</a></li>
-                        <li><a href="#">예금자보호제도</a></li>
-                        <li><a href="#">고객권리안내문</a></li>
-                        <li><a href="#">신용정보 활용체제의 공시</a></li>
-                        <li><a href="#">본인정보 이용제공 현황</a></li>
-                        <li><a href="#">원격지원</a></li>
+          </div>
+
+          <div class="contTop">
+            <div>
+              <div class="tab_menu">
+                <ul>
+                  <li class="active">
+                    <a href="#">새소식</a>
+                    <ul>
+                      <li>
+                        <a href="#"
+                          ><span class="red">[ 영업점 출입자 명부 ]</span> 작성
+                          시행 안내</a
+                        >
+                      </li>
+                      <li><a href="#">KB 국민은행 사칭 문자 유의 안내</a></li>
+                      <li>
+                        <a href="#">코로나19 관련 일부 영업점 일시중단 안내</a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          >오픈뱅킹공동업무 금융정보조회 약관,
+                          <span class="green">「오픈뱅킹공동업무」</span
+                          >자동계좌이체 약관 개정 안내</a
+                        >
+                      </li>
                     </ul>
-                </div>
-                <div class="footerToplogo">
-                    <div class="inner">
-                        <div>
-                            <div class="flogo"></div>
-                            <div class="fmid">
-                                <p>사업자등록번호 : 010-9224-5158 ( 해외전화 82 - 12 - 123 - 456 )</p>
-                                <p>서울특별시 강서구 염창동 | 대표전화 : 1588-1111, 1644-1111 </p>
-                                <p>본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.</p>
-                                <p>&copy; 2021 Oh,Ga-Hee. All Rights Reserved.</p>
-                            </div>
-                            <div class="fright">
-                                <div class="last">
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                </div>
-                                <select class="fselect">
-                                      <option>family site</option>
-                                      <option>KB금융그룹</option>
-                                      <option>KB증권</option>
-                                      <option>KB손해보험</option>
-                                      <option>KB국민카드</option>
-                                      <option>KB캐피탈</option>
-                                      <option>KB생명보험</option>
-                                      <option>KB부동산신탁</option>
-                                      <option>KB저축은행</option>
-                                      <option>KB인베스트먼트</option>
-                                      <option>KB데이타시스템</option>
-                                      <option>KB신용정보</option>
-                                      <option>KB경영연구소</option>
-                                </select>
-                            </div>
-                        </div>
+                  </li>
+                  <li>
+                    <a href="#">이벤트</a>
+                    <ul>
+                      <li>
+                        <a href="#">
+                          상상을 넘어 현실로! 국민 아이디어 공모전</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#">Welcome to KB 더드림존 OPEN 이벤트</a>
+                      </li>
+                      <li>
+                        <a href="#">KB 2021 연금꽃길 개인현 IPR 고객 이벤트 </a>
+                      </li>
+                      <li><a href="#">해외송금, 국민 EZ로 꽃길 걸어요~ </a></li>
+                      <li>
+                        <a href="#">수수료 500원도, 이제 그만 내세요~!</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="cont1">
+                <div>
+                  <div>
+                    <img src="./img/main_product_img01.jpg" alt="" />
+                    <div class="cont1Txt">
+                      <span>예금</span>
+                      <p>알짜 정보</p>
                     </div>
+                  </div>
+                  <div>
+                    <img src="./img/main_product_img02.jpg" alt="" />
+                    <div class="cont1Txt">
+                      <span>펀드</span>
+                      <p>펀드 랭킹</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="./img/main_product_img03.jpg" alt="" />
+                    <div class="cont1Txt">
+                      <span>외환</span>
+                      <p>내역 조회</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="./img/main_product_img05.jpg" alt="" />
+                    <div class="cont1Txt">
+                      <span>대출</span>
+                      <p>한도 조회</p>
+                    </div>
+                  </div>
                 </div>
-        </section>
-        <footer id="footer">
-            <div class="top"><i class="fas fa-sort-up"></i></div>
-        </footer>
+              </div>
+              <div class="cont2">
+                <h2>당신과 함께하는<span> KB</span> 금융 라이프</h2>
+                <div class="cont2gallery">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contBottom">
+            <div class="bottomBox">
+              <div class="box1">
+                <div class="box_1 box11">
+                  <h3>나의 든든한 친구 <br /><span>리브메이트</span></h3>
+                  <hr />
+                  <p>
+                    <span>고객님!</span> 지금 바로
+                    <span>리브메이트</span> 어플을 다운받고 <br /><span
+                      >스타벅스</span
+                    >
+                    카라멜 마끼아또 Tall 2잔을 받아가세요.
+                  </p>
+                  <p>
+                    본 이벤트는 KB 국민은행 사정에 따라 중단될 수 있습니다.
+                    <br />경품의 공과금은 KB국민은행이 부담하며, 경품가액은
+                    기타소득으로 산정됩니다.<br />앱 가입대상은 만 14세 이상으로
+                    가입고객에게만 적립 됩니다.
+                  </p>
+                </div>
+
+                <div class="box_1 box12">
+                  <h3>
+                    어려운 자산관리 <br />
+                    <span> [ </span> 케이봇 쌤 <span> ] </span> 에게 맡겨주세요!
+                  </h3>
+                  <p><span>01</span> 케이봇 쌤은 분석합니다.</p>
+                  <p>향후 국내 주식시장은 강한 강세장으로 예상됩니다.</p>
+                  <p><span>02</span> 케이봇 쌤은 간편합니다.</p>
+                  <p>
+                    매일 스스로 금융시장을 분석하는 인공지능 로봇과<br />
+                    KB금융그룹 전문가의 노하우로 최적의 포트폴리오를 고객님께
+                    제안해 드립니다
+                  </p>
+                </div>
+
+                <div class="box_1 box13">
+                  <h3><span>숨어 있는 통장 찾기</span><br />국민 이벤트</h3>
+                  <hr />
+                  <p>
+                    고객님이 잊은 <span>숨어있는 통장</span>도 찾고,<br />
+                    총 <span>2021</span>분께 드리는 포인트 혜택도 잡으세요.
+                  </p>
+                  <p>07.21~10.31</p>
+                  <p>
+                    본 이벤트는 KB 국민은행 사정에 따라 중단될 수 있습니다.
+                    <br />경품의 공과금은 KB국민은행이 부담하며, 경품가액은
+                    기타소득으로 산정됩니다.<br />앱 가입대상은 만 14세 이상으로
+                    가입고객에게만 적립 됩니다.
+                  </p>
+                  <i class="fas fa-money-check-alt"></i>
+                </div>
+              </div>
+              <div class="box2">
+                <div>
+                  <div class="box_2 box21">
+                    <span class="caption"></span>
+                  </div>
+                  <div class="box_2 box22">
+                    <span class="caption"></span>
+                  </div>
+                  <div class="box_2 box23">
+                    <span class="caption"></span>
+                    <p>이벤트</p>
+                    <hr />
+                    <p>숨은 통장 찾기 국민 이벤트</p>
+                    <p>07.01~07.31</p>
+                    <p>
+                      - 고객님이 잊은 <span>숨어있는 통장</span>을 찾아드려요.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="box3">
+                <div>
+                  <div class="box31">
+                    <i class="fas fa-plus"></i>
+                    <p class="view">View More</p>
+                  </div>
+                  <div class="box32">
+                    <span>
+                      <p>KB 새소식</p>
+                      <p>문의전화</p>
+                      <p>1588-1111</p>
+                    </span>
+                  </div>
+                  <div class="box33">
+                    <span>
+                      <p>서비스</p>
+                      <hr />
+                      <p>Liiv mate 출시</p>
+                      <p>KB금융그룹통합</p>
+                      <p>멤버십 <span class="new">new</span></p>
+                      <p>고객님, 체크해 보셨나요?</p>
+                    </span>
+                  </div>
+                  <div class="box34">
+                    <i class="fas fa-plus"></i>
+                    <p class="view">View More</p>
+                  </div>
+                  <div class="box35">
+                    <i class="fas fa-plus"></i>
+                    <p class="view">View More</p>
+                  </div>
+                  <div class="box36">
+                    <span>
+                      <span>금융사고예방</span>
+                      <p>전자금융</p>
+                      <p>사기예방 서비스</p>
+                      <p>WARNING !</p>
+                      <p>07.11~09.18</p>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="kbApp">
+        <div class="inner">
+          <h2><span>KB</span> 국민은행 APP</h2>
+          <div class="autoplay">
+            <div>
+              <img src="./img/03_01_img3.jpg" alt="" />
+            </div>
+            <div>
+              <img src="./img/03_01_img4.jpg" alt="" />
+            </div>
+            <div>
+              <img src="./img/03_01_img5.jpg" alt="" />
+            </div>
+            <div>
+              <img src="./img/03_01_img6.jpg" alt="" />
+            </div>
+            <div>
+              <img src="./img/03_01_img7.jpg" alt="" />
+            </div>
+            <div>
+              <img src="./img/03_01_img11.jpg" alt="" />
+            </div>
+            <div>
+              <img src="./img/03_01_img8.jpg" alt="" />
+            </div>
+            <div>
+              <img src="./img/03_01_img9.jpg" alt="" />
+            </div>
+            <div>
+              <img src="./img/03_01_img2.jpg" alt="" />
+            </div>
+            <div>
+              <img src="./img/03_01_img1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="tabPannel">
+        <h2><span>KB</span> 국민카드</h2>
+        <ul class="tab_title">
+          <li>신용카드</li>
+          <li>체크카드</li>
+          <li class="on">프리미엄</li>
+        </ul>
+        <div class="tab_cont">
+          <div>
+            <img src="./img/s1.png" alt="" />
+            <img src="./img/s2.png" alt="" />
+            <img src="./img/s3.png" alt="" />
+            <img src="./img/s4.png" alt="" />
+          </div>
+          <div>
+            <img src="./img/p1.png" alt="" />
+            <img src="./img/p2.png" alt="" />
+            <img src="./img/p3.png" alt="" />
+            <img src="./img/p4.png" alt="" />
+          </div>
+          <div class="on">
+            <img src="./img/c1.png" alt="" />
+            <img src="./img/c2.png" alt="" />
+            <img src="./img/c3.png" alt="" />
+            <img src="./img/c4.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="bottomImg"></div>
+      <section id="contact">
+        <div class="inner">
+          <div class="bottomLogo"></div>
+          <form action="#" method="post" class="form">
+            <h3>CONTACT US!</h3>
+            <div class="input-inner">
+              <div class="unit">
+                <label for="input1">성함</label>
+                <input type="text" id="input1" />
+                <span class="line"></span>
+              </div>
+              <div class="unit">
+                <label for="input2">연락처</label>
+                <input type="text" id="input2" />
+                <span class="line"></span>
+              </div>
+              <div class="unit">
+                <label for="input3">내용을 입력해주세요 !</label>
+                <input type="text" id="input3" />
+                <span class="line"></span>
+              </div>
+            </div>
+            <button id="submit">제출하기</button>
+          </form>
+        </div>
+      </section>
+      <section id="footerTop">
+        <div class="inner">
+          <ul class="footerNav">
+            <li><a href="#">개인정보처리(취금)방침</a></li>
+            <li><a href="#">전자금융</a></li>
+            <li><a href="#">KB국민은행 소개</a></li>
+            <li><a href="#">전자금융 이용안내</a></li>
+            <li><a href="#">예금자보호제도</a></li>
+            <li><a href="#">고객권리안내문</a></li>
+            <li><a href="#">신용정보 활용체제의 공시</a></li>
+            <li><a href="#">본인정보 이용제공 현황</a></li>
+            <li><a href="#">원격지원</a></li>
+          </ul>
+        </div>
+        <div class="footerToplogo">
+          <div class="inner">
+            <div>
+              <div class="flogo"></div>
+              <div class="fmid">
+                <p>
+                  사업자등록번호 : 010-9224-5158 ( 해외전화 82 - 12 - 123 - 456
+                  )
+                </p>
+                <p>
+                  서울특별시 강서구 염창동 | 대표전화 : 1588-1111, 1644-1111
+                </p>
+                <p>
+                  본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로
+                  제작되었습니다.
+                </p>
+                <p>&copy; 2021 Oh,Ga-Hee. All Rights Reserved.</p>
+              </div>
+              <div class="fright">
+                <div class="last">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <select class="fselect">
+                  <option>family site</option>
+                  <option>KB금융그룹</option>
+                  <option>KB증권</option>
+                  <option>KB손해보험</option>
+                  <option>KB국민카드</option>
+                  <option>KB캐피탈</option>
+                  <option>KB생명보험</option>
+                  <option>KB부동산신탁</option>
+                  <option>KB저축은행</option>
+                  <option>KB인베스트먼트</option>
+                  <option>KB데이타시스템</option>
+                  <option>KB신용정보</option>
+                  <option>KB경영연구소</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="footer">
+        <div class="top"><i class="fas fa-sort-up"></i></div>
+      </footer>
     </div>
     <script>
-     $(window).scroll(function(){
-            var wh = $(window).height();
-            var ss = $(this).scrollTop();
-            if( wh/2<ss){
-               $('.top').stop().animate({'opacity':1},200)
-            }else{$('.top').stop().animate({'opacity':0}),200}
-       })
-       $('.top').click(function(){
-           $('html, body').animate({'scrollTop':0},400);
-       })
+      $(window).scroll(function () {
+        var wh = $(window).height();
+        var ss = $(this).scrollTop();
+        if (wh / 2 < ss) {
+          $('.top').stop().animate({ opacity: 1 }, 200);
+        } else {
+          $('.top').stop().animate({ opacity: 0 }), 200;
+        }
+      });
+      $('.top').click(function () {
+        $('html, body').animate({ scrollTop: 0 }, 400);
+      });
     </script>
-</body>
+  </body>
 </html>
